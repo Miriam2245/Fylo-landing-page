@@ -11,21 +11,20 @@ body {
 }
 .logo-part {
   width: 50%;
-  background-color: bisque;
 }
 .logo {
   width: 10em;
+  padding-left: 5em;
 }
 .header-buttons {
   width: 50%;
-  background-color: aqua;
+  background-color: antiquewhite;
 }
 
 .header-buttons ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
+  padding-left: 10em;
 }
 
 .header-buttons ul li {
@@ -38,17 +37,58 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 10em;
+  background-color: palegoldenrod;
 }
 .advertisement {
-  width: 50%;
-  background-color: blueviolet;
+  width: 35em;
+  margin-left: 5em;
 }
 h1 {
-  font-size: 32px;
+  font-size: 40px;
+}
+p {
+  width: 30em;
+  font-size: 16px;
 }
 main.img {
   width: 50%;
+  padding-right: 5em;
 }
 .illustration-1 {
   width: 50em;
+}
+.main-input {
+  width: 20em;
+  height: 3em;
+  border: solid;
+  border-width: 1px;
+}
+.main-input ::placeholder {
+  font-size: 19px;
+}
+.get-started-btn {
+  width: 15em;
+  height: 3em;
+}
+.main-2 {
+  margin-top: 20px;
+  width: 100%;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+}
+.illustration-2 {
+  width: 50em;
+}
+.main-words {
+  width: 50%;
+  background-color: bisque;
+}
+.main-words {
+  width: 50%;
+  background-color: rgb(148, 117, 78);
+}
+.main-img {
+  width: 50%;
+  background-color: rgb(129, 104, 104);
 }
