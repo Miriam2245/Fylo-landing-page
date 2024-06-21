@@ -5,14 +5,10 @@ body {
   text-decoration: none;
 }
 .navbar {
-  background-color: aqua;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.test {
-  border: 2px solid red;
-}
 .navdiv {
   display: flex;
   align-items: center;
@@ -23,7 +19,6 @@ body {
 }
 .navlist {
   display: flex;
-  background-color: antiquewhite;
   flex-direction: row;
   justify-content: flex-end;
   width: 500px;
@@ -43,7 +38,6 @@ li a {
   display: flex;
   justify-content: space-between;
   margin-top: 10em;
-  background-color: palegoldenrod;
 }
 .advertisement {
   width: 35em;
@@ -79,7 +73,6 @@ main.img {
 .main-2 {
   margin-top: 20px;
   width: 100%;
-  background-color: azure;
   display: flex;
   flex-direction: row;
 }
@@ -88,13 +81,10 @@ main.img {
 }
 .main-words {
   width: 50%;
-  background-color: bisque;
 }
 .main-words {
   width: 50%;
-  background-color: rgb(148, 117, 78);
 }
 .main-img {
   width: 50%;
-  background-color: rgb(129, 104, 104);
 }
